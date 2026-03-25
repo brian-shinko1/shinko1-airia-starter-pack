@@ -5,7 +5,7 @@ export function Footer() {
         <div className="relative flex flex-col items-center justify-between gap-6 md:flex-row">
           <div className="flex items-center gap-3">
             <div className="flex items-center gap-2">
-              <img src="/shinko1-logo.png" alt="Shinkō1" className="h-8 w-auto" />
+              <img src="/shinko1-logo-final.svg" alt="Shinkō1" className="h-6 w-auto" />
             </div>
             <span className="text-muted-foreground">x</span>
             <div className="flex items-center gap-2">
@@ -17,11 +17,7 @@ export function Footer() {
             Day 0 Shinkō1 x Airia Starter Pack Program
           </p>
 
-          <div className="flex items-center gap-6">
-            <a href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-              Support
-            </a>
-          </div>
+          
         </div>
 
         <div className="mt-8 border-t border-border pt-8 text-center">

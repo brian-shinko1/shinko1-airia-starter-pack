@@ -41,7 +41,7 @@ export function AccessGate({ onSuccess }: AccessGateProps) {
             <span className="text-sm text-muted-foreground">Day 0 Program</span>
           </div>
           <h1 className="text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-            Shinkō1 x Airia{" "}
+            Shinkō<span style={{ color: "#fe0041" }}>1</span> x Airia{" "}
             <span className="text-primary">Starter Pack</span>
           </h1>
           <p className="mt-3 text-muted-foreground">

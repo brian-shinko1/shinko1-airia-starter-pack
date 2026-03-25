@@ -45,7 +45,7 @@ export function Header({ onRetakeQuiz, onStartOver }: HeaderProps) {
       <div className="mx-auto grid max-w-7xl grid-cols-3 items-center px-6 py-4">
         <div className="flex items-center gap-3">
           <div className="flex items-center gap-2">
-            <img src="/shinko1-logo.png" alt="Shinkō1" className="h-8 w-auto" />
+            <img src="/shinko1-logo-final.svg" alt="Shinkō1" className="h-6 w-auto" />
           </div>
           <span className="text-muted-foreground/50">×</span>
           <div className="flex items-center gap-2">
