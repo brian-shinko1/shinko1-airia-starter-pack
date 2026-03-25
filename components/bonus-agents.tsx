@@ -32,7 +32,6 @@ const agents = [
       "Identifies top AI use cases",
       "Industry-specific insights",
       "Follow-up Q&A chat",
-      "Powered by Airia",
     ],
     icon: Bot,
     href: "https://prodaus.airia.ai/catalog?assistantId=250b8d45-ed51-47c0-8ff9-a3105a0b84b1",
@@ -104,21 +103,6 @@ export function BonusAgents() {
           })}
         </div>
 
-        <div className="mt-12 rounded-2xl border border-border bg-card p-8 text-center">
-          <h3 className="text-xl font-semibold text-foreground">Ready to Get Started?</h3>
-          <p className="mt-2 text-muted-foreground">
-            Complete the quiz, explore use cases, and watch the demo videos to unlock your agents.
-          </p>
-          <div className="mt-6 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Button size="lg" className="gap-2">
-              Begin Day 0 Program
-              <ArrowRight className="h-4 w-4" />
-            </Button>
-            <Button size="lg" variant="outline">
-              Contact Support
-            </Button>
-          </div>
-        </div>
       </div>
     </section>
   )
